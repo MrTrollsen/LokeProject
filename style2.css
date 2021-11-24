@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+  }
+p {
+  text-align: center;
+}
+body {
+  background: #2f85be;
+  font-family: Arial;
+}
+  
+header {
+  text-align: center;
+}
+  
+header nav {
+  display: inline-block;
+}
+  
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+header ul li {
+  float: left;
+  color: white;
+  width: 200px;
+  height: 40px;
+  background-color: #0099ff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+  
+header ul li a:hover {
+  background-color: rgb(129, 185, 238);
+  color: black;
+}
